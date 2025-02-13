@@ -1,0 +1,13 @@
+{
+	"type":"record",
+	"name":"Log",
+	"fields":[
+		{"name":"time", "type":"string"},
+		{"name":"level","type":"string"},
+		{"name":"tags", "default":[], "type":{
+			"type":"array",
+			"items":["string"]
+		}},
+		{"name":"body", "type":"string"}
+	]
+}

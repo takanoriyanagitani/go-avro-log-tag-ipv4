@@ -1,0 +1,2 @@
+{"time":"2025-02-03T06:48:55.012345Z", "level":"info", "tags":["user"], "body":"ping to 127.0.0.1 ok. ping to 192.168.1.1 ng."}
+{"time":"2025-02-03T07:48:55.012345Z", "level":"warn", "tags":["user"], "body":"ping to 127.0.0.1 ng"}
